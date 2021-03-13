@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#move {
+  word-break: break-all;
+}
+
+@media (max-width: 500px) {
+  #move {
+    height: 50vh;
+    overflow: auto;
+  }
+  #wrapper {
+    position: static;
+    height: 50vh;
+    transform: translate(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
