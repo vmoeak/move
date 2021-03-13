@@ -1,4 +1,5 @@
-let string = `/* 我是一名前端 */
+let string = `  /* 我是一名前端
+下面来画一个八卦 */
     #bagua {
         width: 100px;
         height: 100px;
